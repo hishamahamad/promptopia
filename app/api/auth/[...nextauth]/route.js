@@ -1,5 +1,5 @@
 import NextAuth from 'next-auth';
-import GoogleProvider from 'next-auth/providers/Google';
+import GoogleProvider from 'next-auth/providers/google';
 import {connectToDB} from '@utils/database';
 import User from '@models/user';
 
